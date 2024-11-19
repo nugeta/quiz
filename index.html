@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napredni Kviz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <h1>Napredni Kviz</h1>
+        <div id="dark-mode-toggle">
+            <label for="darkModeSwitch">Dark Mode</label>
+            <input type="checkbox" id="darkModeSwitch" />
+        </div>
+        <div id="progress-bar-container">
+            <progress id="progress-bar" value="0" max="100"></progress>
+        </div>
+        <div id="quiz"></div>
+        <button id="next" style="display: none;">Dalje</button>
+        <div id="result" style="display: none;"></div>
+        <button id="play-again" style="display: none;">Igraj Ponovno</button>
+        <button id="stats" style="display: none;">Statistika</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
